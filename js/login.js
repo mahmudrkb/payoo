@@ -14,6 +14,27 @@ document.getElementById('btn-login')
 
     const phNum=document.getElementById('ph-num').value;
 
-    console.log(phNum)
+    const pinNum=document.getElementById('pin-num').value;
+
+    console.log(phNum, pinNum)
+
+
+    // bad way to valued 
+
+
+    if(phNum==='5' && pinNum==='1234'){
+
+      console.log('you are login');
+
+
+    window.location.href ="./homepage.html"
+
+
+
+    }
+
+    else{
+      alert('please correct your phone num and pin')
+    }
      
   } )
